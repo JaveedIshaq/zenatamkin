@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.javeedishaq.zenatamkin">
    <application
-        android:label="zena_tamkin"
+        android:label="Zena Tamkin"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
