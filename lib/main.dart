@@ -1,7 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:stacked_services/stacked_services.dart';
+import 'package:zena_tamkin/config/router.dart' as router;
 import 'package:zena_tamkin/views/views.dart';
 
-void main() {
+/// init Screen bool
+/// check if it is first time App is launched by user
+int? initScreen;
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final SharedPreferences prefs = await SharedPreferences.getInstance();
+  initScreen = prefs.getInt('initScreen');
+  await prefs.setInt('initScreen', 1);
+
   runApp(const MyApp());
 }
 
@@ -20,7 +32,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.indigo,
         fontFamily: 'Poppins',
       ),
-      home: const HomeView(),
+      initialRoute: initScreen == 0 || initScreen == null
+          ? IntroScreen.route
+          : IntroScreen.route,
+      onGenerateRoute: router.Router.generateRoute,
+      navigatorKey: StackedService.navigatorKey,
     );
   }
 }

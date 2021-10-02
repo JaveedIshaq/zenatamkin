@@ -7,6 +7,9 @@ class HomeView extends StatefulWidget {
   /// Home View Constructor
   const HomeView({Key? key}) : super(key: key);
 
+  /// Route Name to be used with Router
+  static const String route = '/HomeView';
+
   @override
   _HomeViewState createState() => _HomeViewState();
 }
@@ -19,20 +22,80 @@ class _HomeViewState extends State<HomeView> {
         child: Column(
           children: [
             const HomeBanner(),
-            Card(
-              child: ListTile(
-                leading: SvgPicture.asset(
-                  'assets/svg/home-banner-illustration.svg',
-                  fit: BoxFit.cover,
-                  width: 50,
-                ),
-                title: const Text(
-                  'Learning',
-                  style: TextStyle(fontSize: 18),
-                ),
-              ),
-            )
+            const SizedBox(height: 20),
+            CategoryCard(
+              title: 'Learning',
+              svgName: 'learning.svg',
+              onTap: () {},
+            ),
+            CategoryCard(
+              title: 'Useful Resources',
+              svgName: 'useful-resources.svg',
+              onTap: () {},
+            ),
+            CategoryCard(
+              title: 'Fun Zone',
+              svgName: 'fun-zone.svg',
+              onTap: () {},
+            ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Category Card
+class CategoryCard extends StatelessWidget {
+  /// Category Card Constructor
+  const CategoryCard({
+    Key? key,
+    required this.title,
+    required this.svgName,
+    required this.onTap,
+  }) : super(key: key);
+
+  /// Card Title
+  final String title;
+
+  /// Svg Illustration Name
+  final String svgName;
+
+  /// OnTap Void Callback
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: onTap,
+      splashColor: primaryColor.withOpacity(0.5),
+      child: Padding(
+        padding:
+            const EdgeInsets.only(left: 28.0, top: 0, right: 28, bottom: 15),
+        child: Card(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(15.0),
+          ),
+          shadowColor: primaryColor,
+          elevation: 10,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 18.0, horizontal: 30),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                SvgPicture.asset(
+                  'assets/svg/$svgName',
+                  fit: BoxFit.cover,
+                  height: 50,
+                ),
+                const SizedBox(width: 15),
+                Text(
+                  title,
+                  style: const TextStyle(fontSize: 20),
+                ),
+              ],
+            ),
+          ),
         ),
       ),
     );
@@ -52,7 +115,13 @@ class HomeBanner extends StatelessWidget {
       padding: const EdgeInsets.only(top: 35),
       height: 328,
       width: double.infinity,
-      color: primaryColor,
+      decoration: const BoxDecoration(
+        color: primaryColor,
+        borderRadius: BorderRadius.only(
+          bottomRight: Radius.circular(30),
+          bottomLeft: Radius.circular(30),
+        ),
+      ),
       child: Column(
         children: [
           const Text(
@@ -62,7 +131,6 @@ class HomeBanner extends StatelessWidget {
           const SizedBox(height: 20),
           SvgPicture.asset(
             'assets/svg/home-banner-illustration.svg',
-            fit: BoxFit.cover,
           ),
         ],
       ),
