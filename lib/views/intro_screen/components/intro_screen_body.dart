@@ -80,7 +80,7 @@ class _IntroScreenBodyState extends State<IntroScreenBody> {
                         Navigator.pushReplacement(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const HomeView()));
+                                builder: (context) => HomeView()));
                       },
                     ),
                     const Spacer(),

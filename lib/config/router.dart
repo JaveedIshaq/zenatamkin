@@ -10,9 +10,19 @@ class Router {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case '/HomeView':
-        return MaterialPageRoute<dynamic>(builder: (_) => const HomeView());
+        return MaterialPageRoute<dynamic>(builder: (_) => HomeView());
       case '/IntroScreen':
         return MaterialPageRoute<dynamic>(builder: (_) => const IntroScreen());
+      case '/FunZoneHomeView':
+        return MaterialPageRoute<dynamic>(
+            builder: (_) => const FunZoneHomeView());
+      case '/LearningHomeView':
+        return MaterialPageRoute<dynamic>(
+            builder: (_) => const LearningHomeView());
+      case '/UsefulResourcesHomeView':
+        return MaterialPageRoute<dynamic>(
+            builder: (_) => const UsefulResourcesHomeView());
+
       default:
         return MaterialPageRoute<dynamic>(
             builder: (_) => Scaffold(
