@@ -9,6 +9,7 @@ class ScreenBanner extends StatelessWidget {
     Key? key,
     required this.titleText,
     required this.svgName,
+    this.showImgTitle = true,
   }) : super(key: key);
 
   /// titleText
@@ -17,11 +18,14 @@ class ScreenBanner extends StatelessWidget {
   /// svgName
   final String svgName;
 
+  /// showImgTitle
+  final bool showImgTitle;
+
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.only(top: 35),
-      height: 228,
+      height: showImgTitle ? 228 : 60,
       width: double.infinity,
       child: Stack(
         children: [
@@ -35,24 +39,28 @@ class ScreenBanner extends StatelessWidget {
               Navigator.of(context).pop();
             },
           )),
-          SizedBox(
-            width: double.infinity,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                SvgPicture.asset(
-                  'assets/svg/$svgName',
-                  height: 140,
-                  fit: BoxFit.contain,
-                ),
-                const SizedBox(height: 20),
-                Text(
-                  titleText,
-                  style: const TextStyle(fontSize: 22, color: primaryColor),
-                ),
-              ],
-            ),
-          ),
+          showImgTitle
+              ? SizedBox(
+                  width: double.infinity,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      SvgPicture.asset(
+                        'assets/svg/$svgName',
+                        height: 140,
+                        fit: BoxFit.contain,
+                      ),
+                      const SizedBox(height: 20),
+                      Text(
+                        titleText,
+                        overflow: TextOverflow.ellipsis,
+                        style:
+                            const TextStyle(fontSize: 22, color: primaryColor),
+                      ),
+                    ],
+                  ),
+                )
+              : Container(),
         ],
       ),
     );

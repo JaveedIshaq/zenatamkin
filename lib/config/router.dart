@@ -17,8 +17,7 @@ class Router {
         return MaterialPageRoute<dynamic>(
             builder: (_) => const FunZoneHomeView());
       case '/LearningHomeView':
-        return MaterialPageRoute<dynamic>(
-            builder: (_) => const LearningHomeView());
+        return MaterialPageRoute<dynamic>(builder: (_) => LearningHomeView());
       case '/UsefulResourcesHomeView':
         return MaterialPageRoute<dynamic>(
             builder: (_) => const UsefulResourcesHomeView());
