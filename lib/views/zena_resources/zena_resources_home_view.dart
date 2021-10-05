@@ -23,17 +23,22 @@ class ZenaResourcesHomeView extends StatelessWidget {
             Wrap(
               children: [
                 SubCategoryCard(
-                  title: 'Learning',
+                  title: 'Women in Technology',
                   svgName: 'learning.svg',
                   onTap: () {},
                 ),
                 SubCategoryCard(
-                  title: 'Useful',
+                  title: 'Top Pakistani\nWomen in Tech',
                   svgName: 'useful-resources.svg',
                   onTap: () {},
                 ),
                 SubCategoryCard(
-                  title: 'Fun Zone',
+                  title: 'Top Pakistani\nWomen in All Fields',
+                  svgName: 'fun-zone.svg',
+                  onTap: () {},
+                ),
+                SubCategoryCard(
+                  title: 'Tamkin Links',
                   svgName: 'fun-zone.svg',
                   onTap: () {},
                 ),

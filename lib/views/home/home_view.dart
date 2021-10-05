@@ -66,6 +66,7 @@ class HomeView extends StatelessWidget {
                   _navigationService!.navigateTo(CareConnectionHomeView.route);
                 },
               ),
+              const SizedBox(height: 30),
             ],
           ),
         ),

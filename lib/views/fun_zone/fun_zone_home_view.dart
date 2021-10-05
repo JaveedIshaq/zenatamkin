@@ -53,7 +53,7 @@ class FunZoneHomeView extends StatelessWidget {
                 ),
                 SubCategoryCard(
                   title: 'Write to Us',
-                  svgName: 'assets/svg/write-to-us.svg',
+                  svgName: 'write-to-us.svg',
                   onTap: () {
                     launchMailClient(email: 'ishaqjaveed1@gmail.com');
                   },

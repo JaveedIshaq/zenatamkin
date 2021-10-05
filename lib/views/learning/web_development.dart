@@ -26,19 +26,6 @@ class WebDevelopmentLearning extends StatelessWidget {
 
   final WrapAlignment _wrapAlignment = WrapAlignment.start;
 
-  final Map<String, WrapAlignment> _wrapAlignmentMenuItems =
-      Map<String, WrapAlignment>.fromIterables(
-    WrapAlignment.values.map((WrapAlignment e) => e.displayTitle),
-    WrapAlignment.values,
-  );
-
-  static const List<double> _spacing = <double>[4.0, 8.0, 16.0, 24.0, 32.0];
-  final Map<String, double> _blockSpacingMenuItems =
-      Map<String, double>.fromIterables(
-    _spacing.map((double e) => e.toString()),
-    _spacing,
-  );
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
