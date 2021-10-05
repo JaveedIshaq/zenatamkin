@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
+import 'package:zena_tamkin/app_viewmodel/app_viewmodel.dart';
 import 'package:zena_tamkin/shared_widgets/shared_widgets.dart';
 import 'package:zena_tamkin/views/learning/components/lectures_list.dart';
-import 'package:zena_tamkin/views/learning/learning_viewmodel/learning_viewmodel.dart';
 
 /// Web Development Learning
 class CreativeWritingLearning extends StatelessWidget {
@@ -11,9 +11,9 @@ class CreativeWritingLearning extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder<LearningViewModel>.reactive(
-      viewModelBuilder: () => LearningViewModel(),
-      onModelReady: (LearningViewModel model) =>
+    return ViewModelBuilder<AppViewModel>.reactive(
+      viewModelBuilder: () => AppViewModel(),
+      onModelReady: (AppViewModel model) =>
           model.requestCWYTvideos(context: context),
       disposeViewModel: false,
       builder: (context, model, child) => Scaffold(

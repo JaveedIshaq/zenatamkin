@@ -28,7 +28,7 @@ class CategoryCard extends StatelessWidget {
       splashColor: primaryColor.withOpacity(0.5),
       child: Padding(
         padding:
-            const EdgeInsets.only(left: 28.0, top: 0, right: 28, bottom: 15),
+            const EdgeInsets.only(left: 28.0, top: 0, right: 28, bottom: 5),
         child: Card(
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15.0),
@@ -36,7 +36,7 @@ class CategoryCard extends StatelessWidget {
           shadowColor: primaryColor,
           elevation: 10,
           child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 18.0, horizontal: 30),
+            padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 10),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [

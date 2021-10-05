@@ -13,7 +13,6 @@ class HomeScreenBanner extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.only(top: 35),
-      height: 328,
       width: double.infinity,
       decoration: const BoxDecoration(
         color: primaryColor,
@@ -26,9 +25,9 @@ class HomeScreenBanner extends StatelessWidget {
         children: [
           const Text(
             'Zena Tamkin',
-            style: TextStyle(fontSize: 32, color: Colors.white),
+            style: TextStyle(fontSize: 22, color: Colors.white),
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 5),
           SvgPicture.asset(
             'assets/svg/home-banner-illustration.svg',
           ),

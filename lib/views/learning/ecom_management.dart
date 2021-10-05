@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
-import 'package:zena_tamkin/config/colors.dart';
+import 'package:zena_tamkin/app_viewmodel/app_viewmodel.dart';
 import 'package:zena_tamkin/shared_widgets/shared_widgets.dart';
 import 'package:zena_tamkin/views/learning/components/lectures_list.dart';
-import 'package:zena_tamkin/views/learning/components/video_item.dart';
-import 'package:zena_tamkin/views/learning/learning_viewmodel/learning_viewmodel.dart';
 
 /// EcomLearning Learning
 class EcomLearning extends StatelessWidget {
@@ -13,9 +11,9 @@ class EcomLearning extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder<LearningViewModel>.reactive(
-      viewModelBuilder: () => LearningViewModel(),
-      onModelReady: (LearningViewModel model) =>
+    return ViewModelBuilder<AppViewModel>.reactive(
+      viewModelBuilder: () => AppViewModel(),
+      onModelReady: (AppViewModel model) =>
           model.requestECOMYTvideos(context: context),
       disposeViewModel: false,
       builder: (context, model, child) => Scaffold(

@@ -1,15 +1,19 @@
 import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 import 'package:logger/logger.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:zena_tamkin/config/locator.dart';
 import 'package:zena_tamkin/config/logger.dart';
 import 'package:zena_tamkin/helpers/api_response.dart';
+import 'package:zena_tamkin/models/affirmation.dart';
+import 'package:zena_tamkin/models/qoute.dart';
 import 'package:zena_tamkin/models/youtube_video.dart';
 
-/// Learning View Model
-class LearningViewModel extends BaseViewModel {
+/// AppViewModel
+class AppViewModel extends BaseViewModel {
   /// Logger
   Logger log = getLogger('LearningViewModel');
 
@@ -49,6 +53,16 @@ class LearningViewModel extends BaseViewModel {
 
   /// Digital Marketing Videos List
   ApiResponse<List<YoutubeVideo>>? get wpYtlist => _wpYtlist;
+
+  ApiResponse<Quote>? _quote;
+
+  /// Quote
+  ApiResponse<Quote>? get quote => _quote;
+
+  ApiResponse<Affirmation>? _affirmation;
+
+  /// Quote
+  ApiResponse<Affirmation>? get affirmation => _affirmation;
 
   /// request DM YT videos
   /// ***********************************************************
@@ -255,6 +269,63 @@ class LearningViewModel extends BaseViewModel {
           .toList();
 
       _wpYtlist = ApiResponse.completed(result);
+      setBusy(false);
+    } catch (e) {
+      setBusy(false);
+      await _dialogService!.showDialog(
+        title: 'error_messages.error',
+        description: e.toString(),
+      );
+    }
+  }
+
+  /// ***********************************************************
+  ///
+  /// https://api.quotable.io/random
+
+  /// request DM YT videos
+  /// ***********************************************************
+
+  Future requestRandomQuote() async {
+    Quote result;
+
+    setBusy(true);
+    _quote = ApiResponse.loading('Requesting Fetch');
+    try {
+      var data = await http.get(Uri.parse('https://api.quotable.io/random'));
+
+      var responseData = json.decode(data.body);
+
+      result = Quote.fromJson(responseData as Map<String, dynamic>);
+
+      _quote = ApiResponse.completed(result);
+      setBusy(false);
+    } catch (e) {
+      setBusy(false);
+      await _dialogService!.showDialog(
+        title: 'error_messages.error',
+        description: e.toString(),
+      );
+    }
+  }
+
+  /// ***********************************************************
+  /// https://www.affirmations.dev/
+  /// ***********************************************************
+
+  Future requestAffirmation() async {
+    Affirmation result;
+
+    setBusy(true);
+    _affirmation = ApiResponse.loading('Requesting Fetch');
+    try {
+      var data = await http.get(Uri.parse('https://www.affirmations.dev'));
+
+      var responseData = json.decode(data.body);
+
+      result = Affirmation.fromJson(responseData as Map<String, dynamic>);
+
+      _affirmation = ApiResponse.completed(result);
       setBusy(false);
     } catch (e) {
       setBusy(false);

@@ -14,13 +14,18 @@ class Router {
       case '/IntroScreen':
         return MaterialPageRoute<dynamic>(builder: (_) => const IntroScreen());
       case '/FunZoneHomeView':
-        return MaterialPageRoute<dynamic>(
-            builder: (_) => const FunZoneHomeView());
+        return MaterialPageRoute<dynamic>(builder: (_) => FunZoneHomeView());
       case '/LearningHomeView':
         return MaterialPageRoute<dynamic>(builder: (_) => LearningHomeView());
-      case '/UsefulResourcesHomeView':
+      case '/ZenaResourcesHomeView':
         return MaterialPageRoute<dynamic>(
-            builder: (_) => const UsefulResourcesHomeView());
+            builder: (_) => const ZenaResourcesHomeView());
+      case '/CareConnectionHomeView':
+        return MaterialPageRoute<dynamic>(
+            builder: (_) => const CareConnectionHomeView());
+      case '/ZenaMentorsHomeView':
+        return MaterialPageRoute<dynamic>(
+            builder: (_) => const ZenaMentorsHomeView());
 
       default:
         return MaterialPageRoute<dynamic>(

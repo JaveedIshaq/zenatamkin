@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:stacked_services/stacked_services.dart';
+import 'package:zena_tamkin/config/locator.dart';
 import 'package:zena_tamkin/shared_widgets/shared_widgets.dart';
+import 'package:zena_tamkin/views/fun_zone/affirmations.dart';
+import 'package:zena_tamkin/views/fun_zone/brain_feed.dart';
 
 /// Home View of the App
 class FunZoneHomeView extends StatelessWidget {
   /// Home View Constructor
-  const FunZoneHomeView({Key? key}) : super(key: key);
+  FunZoneHomeView({Key? key}) : super(key: key);
 
   /// Route Name to be used with Router
   static const String route = '/FunZoneHomeView';
+
+  final NavigationService? _navigationService = locator<NavigationService>();
 
   @override
   Widget build(BuildContext context) {
@@ -23,18 +29,27 @@ class FunZoneHomeView extends StatelessWidget {
             Wrap(
               children: [
                 SubCategoryCard(
-                  title: 'Learning',
-                  svgName: 'learning.svg',
+                  title: 'AjkiPakeay',
+                  svgName: 'cooking.svg',
                   onTap: () {},
                 ),
                 SubCategoryCard(
-                  title: 'Useful',
-                  svgName: 'useful-resources.svg',
-                  onTap: () {},
+                  title: 'Brain Feed',
+                  svgName: 'quotes.svg',
+                  onTap: () {
+                    _navigationService!.navigateToView(BrainFoodQuote());
+                  },
                 ),
                 SubCategoryCard(
-                  title: 'Fun Zone',
-                  svgName: 'fun-zone.svg',
+                  title: 'Affirmation',
+                  svgName: 'affirmation.svg',
+                  onTap: () {
+                    _navigationService!.navigateToView(Affirmations());
+                  },
+                ),
+                SubCategoryCard(
+                  title: 'AjkaMousam',
+                  svgName: 'weather.svg',
                   onTap: () {},
                 ),
               ],
