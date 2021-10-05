@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:zena_tamkin/config/locator.dart';
+import 'package:zena_tamkin/helpers/helper_functions.dart';
 import 'package:zena_tamkin/shared_widgets/shared_widgets.dart';
 import 'package:zena_tamkin/views/fun_zone/affirmations.dart';
 import 'package:zena_tamkin/views/fun_zone/brain_feed.dart';
+import 'package:zena_tamkin/views/fun_zone/random_recipe.dart';
 
 /// Home View of the App
 class FunZoneHomeView extends StatelessWidget {
@@ -29,9 +31,11 @@ class FunZoneHomeView extends StatelessWidget {
             Wrap(
               children: [
                 SubCategoryCard(
-                  title: 'AjkiPakeay',
+                  title: 'Reipe of the Day',
                   svgName: 'cooking.svg',
-                  onTap: () {},
+                  onTap: () {
+                    _navigationService!.navigateToView(const RandomReecipe());
+                  },
                 ),
                 SubCategoryCard(
                   title: 'Brain Feed',
@@ -48,9 +52,11 @@ class FunZoneHomeView extends StatelessWidget {
                   },
                 ),
                 SubCategoryCard(
-                  title: 'AjkaMousam',
-                  svgName: 'weather.svg',
-                  onTap: () {},
+                  title: 'Write to Us',
+                  svgName: 'assets/svg/write-to-us.svg',
+                  onTap: () {
+                    launchMailClient(email: 'ishaqjaveed1@gmail.com');
+                  },
                 ),
               ],
             ),

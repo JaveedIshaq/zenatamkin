@@ -119,3 +119,24 @@ Future<void> captureSocialPng({
     });
   });
 }
+
+///
+Future<void> openLaunchURL({required String url}) async {
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    // ignore: only_throw_errors
+    throw 'Could not launch $url';
+  }
+}
+
+///
+void launchMailClient({required String email}) async {
+  var mailUrl = 'mailto:$email';
+  try {
+    await launch(mailUrl);
+  } catch (e) {
+    // ignore: only_throw_errors
+    throw 'Could not launch $mailUrl';
+  }
+}

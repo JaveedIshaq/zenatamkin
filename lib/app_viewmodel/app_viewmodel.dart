@@ -9,6 +9,7 @@ import 'package:zena_tamkin/config/locator.dart';
 import 'package:zena_tamkin/config/logger.dart';
 import 'package:zena_tamkin/helpers/api_response.dart';
 import 'package:zena_tamkin/models/affirmation.dart';
+import 'package:zena_tamkin/models/food_recipe.dart';
 import 'package:zena_tamkin/models/qoute.dart';
 import 'package:zena_tamkin/models/youtube_video.dart';
 
@@ -63,6 +64,11 @@ class AppViewModel extends BaseViewModel {
 
   /// Quote
   ApiResponse<Affirmation>? get affirmation => _affirmation;
+
+  ApiResponse<FoodRecipe>? _foodRecipe;
+
+  /// Quote
+  ApiResponse<FoodRecipe>? get foodRecipe => _foodRecipe;
 
   /// request DM YT videos
   /// ***********************************************************
@@ -326,6 +332,39 @@ class AppViewModel extends BaseViewModel {
       result = Affirmation.fromJson(responseData as Map<String, dynamic>);
 
       _affirmation = ApiResponse.completed(result);
+      setBusy(false);
+    } catch (e) {
+      setBusy(false);
+      await _dialogService!.showDialog(
+        title: 'error_messages.error',
+        description: e.toString(),
+      );
+    }
+  }
+
+  /// ***********************************************************
+  ///
+  /// ***********************************************************
+  /// https://www.themealdb.com/api/json/v1/1/random.php
+  /// ***********************************************************
+
+  Future requestRecipe() async {
+    FoodRecipe result;
+
+    setBusy(true);
+    _foodRecipe = ApiResponse.loading('Requesting Fetch');
+    try {
+      var data = await http
+          .get(Uri.parse('https://www.themealdb.com/api/json/v1/1/random.php'));
+
+      var responseData = json.decode(data.body);
+
+      log.w(responseData);
+
+      result =
+          FoodRecipe.fromJson(responseData['meals'][0] as Map<String, dynamic>);
+
+      _foodRecipe = ApiResponse.completed(result);
       setBusy(false);
     } catch (e) {
       setBusy(false);

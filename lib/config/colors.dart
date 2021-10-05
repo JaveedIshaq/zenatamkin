@@ -7,7 +7,7 @@ const Color primaryColor = Color(0xFF7D0068);
 const Color primaryPinkColor = Color(0xFFE2068C);
 
 /// primar greenColor #459FA5
-const Color primaryGreenColor = Color(0xFFE2068C);
+const Color primaryGreenColor = Color(0xFF3FC979);
 
 /// primary light Green Color
 const Color lightGreenColor = Color(0xFF9BAF29);
