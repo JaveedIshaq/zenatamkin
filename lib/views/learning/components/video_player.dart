@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zena_tamkin/config/colors.dart';
 import 'package:zena_tamkin/models/youtube_video.dart';
@@ -42,6 +43,18 @@ class _VideoPlayerState extends State<VideoPlayer> {
           YoutubePlayerBuilder(
             player: YoutubePlayer(
               controller: _controller,
+              onEnded: (data) {
+                showDialog(
+                    context: context,
+                    builder: (context) {
+                      Future.delayed(const Duration(seconds: 5), () {
+                        Navigator.of(context).pop(true);
+                      });
+                      return AlertDialog(
+                        title: Lottie.asset('assets/json/31574-awesome.json'),
+                      );
+                    });
+              },
             ),
             builder: (context, player) {
               return Column(

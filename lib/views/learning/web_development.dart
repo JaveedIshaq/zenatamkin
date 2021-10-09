@@ -48,25 +48,6 @@ class WebDevelopmentLearning extends StatelessWidget {
                     physics: const NeverScrollableScrollPhysics(),
                     data: snapshot.data as String,
                     imageDirectory: 'https://raw.githubusercontent.com',
-                    styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context))
-                        .copyWith(
-                      blockSpacing: _blockSpacing,
-                      textAlign: _wrapAlignment,
-                      h1Align: _wrapAlignment,
-                      h2Align: _wrapAlignment,
-                      h3Align: _wrapAlignment,
-                      h4Align: _wrapAlignment,
-                      h5Align: _wrapAlignment,
-                      h6Align: _wrapAlignment,
-                      h1: const TextStyle(fontSize: 22),
-                      h2: const TextStyle(fontSize: 20),
-                      p: const TextStyle(fontSize: 16),
-                      a: const TextStyle(fontSize: 16, color: primaryColor),
-                      unorderedListAlign: _wrapAlignment,
-                      orderedListAlign: _wrapAlignment,
-                      blockquoteAlign: _wrapAlignment,
-                      codeblockAlign: _wrapAlignment,
-                    ),
                     onTapLink: (String text, String? href, String title) {
                       handleTapInmarkDown(
                         text: text,

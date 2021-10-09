@@ -47,6 +47,7 @@ class SubCategoryCard extends StatelessWidget {
               const SizedBox(height: 15),
               Text(
                 title,
+                textAlign: TextAlign.center,
                 style: const TextStyle(fontSize: 14),
               ),
             ],

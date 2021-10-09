@@ -26,7 +26,8 @@ class ApiService {
 
   /// read
   Future<String> getWomenInTechData({required String file}) async {
-    var url = Uri.parse(shikaReadMeUrl);
+    print(womenInTechnologyBaseUrl + file);
+    var url = Uri.parse(womenInTechnologyBaseUrl + file);
     var response = await http.get(url);
     return response.body;
   }

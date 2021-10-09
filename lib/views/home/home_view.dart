@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stacked_services/stacked_services.dart';
+import 'package:zena_tamkin/animations/fade_animations.dart';
 import 'package:zena_tamkin/config/locator.dart';
 import 'package:zena_tamkin/helpers/helper_functions.dart';
 import 'package:zena_tamkin/shared_widgets/shared_widgets.dart';
@@ -29,7 +30,10 @@ class HomeView extends StatelessWidget {
         body: SingleChildScrollView(
           child: Column(
             children: [
-              const HomeScreenBanner(),
+              const FadeAnimation(
+                delay: 100,
+                child: HomeScreenBanner(),
+              ),
               const SizedBox(height: 10),
               CategoryCard(
                 title: 'Learning',

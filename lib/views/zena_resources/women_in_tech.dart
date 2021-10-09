@@ -7,10 +7,15 @@ import 'package:zena_tamkin/helpers/helper_functions.dart';
 import 'package:zena_tamkin/services/api_service.dart';
 import 'package:zena_tamkin/shared_widgets/shared_widgets.dart';
 
-/// Web Development Learning
-class WomenInTech extends StatelessWidget {
+/// Women in Technology Role Models
+
+class WomeninTech extends StatelessWidget {
   ///
-  WomenInTech({Key? key, required this.file, required this.title})
+  WomeninTech(
+      {Key? key,
+      required this.file,
+      required this.title,
+      required this.svgName})
       : super(key: key);
 
   /// Markdown File
@@ -18,6 +23,9 @@ class WomenInTech extends StatelessWidget {
 
   /// Page Title
   final String title;
+
+  /// Svg Imag Name
+  final String svgName;
 
   final ApiService? _apiService = locator<ApiService>();
   final ScrollController _controller = ScrollController();
@@ -32,12 +40,12 @@ class WomenInTech extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            ScreenBanner(
-              showImgTitle: (title == 'WebDevelopment Learning') ? true : false,
-              titleText: title,
-              svgName: 'web-development.svg',
-            ),
             const SizedBox(height: 20),
+            ScreenBanner(
+              showImgTitle: true,
+              titleText: title,
+              svgName: svgName,
+            ),
             FutureBuilder(
               future: _apiService!.getWomenInTechData(file: file),
               builder: (context, snapshot) {
@@ -48,25 +56,6 @@ class WomenInTech extends StatelessWidget {
                     physics: const NeverScrollableScrollPhysics(),
                     data: snapshot.data as String,
                     imageDirectory: 'https://raw.githubusercontent.com',
-                    styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context))
-                        .copyWith(
-                      blockSpacing: _blockSpacing,
-                      textAlign: _wrapAlignment,
-                      h1Align: _wrapAlignment,
-                      h2Align: _wrapAlignment,
-                      h3Align: _wrapAlignment,
-                      h4Align: _wrapAlignment,
-                      h5Align: _wrapAlignment,
-                      h6Align: _wrapAlignment,
-                      h1: const TextStyle(fontSize: 22),
-                      h2: const TextStyle(fontSize: 20),
-                      p: const TextStyle(fontSize: 16),
-                      a: const TextStyle(fontSize: 16, color: primaryColor),
-                      unorderedListAlign: _wrapAlignment,
-                      orderedListAlign: _wrapAlignment,
-                      blockquoteAlign: _wrapAlignment,
-                      codeblockAlign: _wrapAlignment,
-                    ),
                     onTapLink: (String text, String? href, String title) {
                       handleTapInmarkDown(
                         text: text,
@@ -78,7 +67,8 @@ class WomenInTech extends StatelessWidget {
                   );
                 }
                 return const CircularProgressIndicator(
-                    valueColor: AlwaysStoppedAnimation<Color>(primaryColor));
+                  valueColor: AlwaysStoppedAnimation<Color>(primaryColor),
+                );
               },
             ),
           ],

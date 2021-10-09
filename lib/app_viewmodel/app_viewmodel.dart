@@ -55,6 +55,11 @@ class AppViewModel extends BaseViewModel {
   /// Digital Marketing Videos List
   ApiResponse<List<YoutubeVideo>>? get wpYtlist => _wpYtlist;
 
+  ApiResponse<List<YoutubeVideo>>? _techTalksYtlist;
+
+  /// Digital Marketing Videos List
+  ApiResponse<List<YoutubeVideo>>? get techTalksYtlist => _techTalksYtlist;
+
   ApiResponse<Quote>? _quote;
 
   /// Quote
@@ -286,6 +291,38 @@ class AppViewModel extends BaseViewModel {
   }
 
   /// ***********************************************************
+
+  /// request DM YT videos
+  /// ***********************************************************
+
+  Future requestWomenInTechYTvideos({required BuildContext context}) async {
+    List<YoutubeVideo>? result = [];
+
+    setBusy(true);
+    _techTalksYtlist = ApiResponse.loading('Requesting Fetch');
+    try {
+      String data = await DefaultAssetBundle.of(context)
+          .loadString('assets/json/women-in-tech-talks.json');
+
+      var responseData = json.decode(data);
+
+      result = (responseData['items'] as List)
+          .map((i) => YoutubeVideo.fromJson(i as Map<String, dynamic>))
+          .toList();
+
+      _techTalksYtlist = ApiResponse.completed(result);
+      setBusy(false);
+    } catch (e) {
+      setBusy(false);
+      await _dialogService!.showDialog(
+        title: 'error_messages.error',
+        description: e.toString(),
+      );
+    }
+  }
+
+  /// ***********************************************************
+
   ///
   /// https://api.quotable.io/random
 
@@ -376,4 +413,5 @@ class AppViewModel extends BaseViewModel {
   }
 
   /// ***********************************************************
+  ///
 }

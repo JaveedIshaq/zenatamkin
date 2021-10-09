@@ -4,8 +4,8 @@ const String techtonicaBaseUrl =
     'https://raw.githubusercontent.com/Techtonica/curriculum/main/';
 
 ///
-const String shikaReadMeUrl =
-    'https://raw.githubusercontent.com/shikha-16/Women-in-Technology/master/README.md';
+const String womenInTechnologyBaseUrl =
+    'https://raw.githubusercontent.com/JaveedIshaq/Women-in-Technology/master/';
 
 /// youtube Playlist base Url
 const String ytPlbaseUrl =

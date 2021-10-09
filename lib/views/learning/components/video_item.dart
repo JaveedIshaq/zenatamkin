@@ -20,9 +20,9 @@ class VideoItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        _navigationService!.navigateToView(VideoPlayer(
-          video: video,
-        ));
+        _navigationService!.navigateToView(
+          VideoPlayer(video: video),
+        );
       },
       child: SizedBox(
         width: MediaQuery.of(context).size.width * 0.80,
@@ -36,12 +36,15 @@ class VideoItem extends StatelessWidget {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: imageProvider,
-                    fit: BoxFit.fill,
+                    fit: BoxFit.cover,
                   ),
                   borderRadius: BorderRadius.circular(20),
                 ),
               ),
-              placeholder: (context, url) => const CircularProgressIndicator(),
+              placeholder: (context, url) => const SizedBox(
+                height: 160,
+                child: Center(child: CircularProgressIndicator()),
+              ),
               errorWidget: (context, url, error) => const Icon(Icons.error),
             ),
             Padding(
