@@ -18,7 +18,7 @@ class HomeView extends StatelessWidget {
   static const String route = '/HomeView';
 
   /// saving back button press time
-  DateTime timeBackPressed = DateTime.now();
+  final DateTime timeBackPressed = DateTime.now();
 
   final NavigationService? _navigationService = locator<NavigationService>();
 
@@ -31,44 +31,60 @@ class HomeView extends StatelessWidget {
           child: Column(
             children: [
               const FadeAnimation(
-                delay: 100,
+                delay: 400,
                 child: HomeScreenBanner(),
               ),
               const SizedBox(height: 10),
-              CategoryCard(
-                title: 'Learning',
-                svgName: 'learning.svg',
-                onTap: () {
-                  _navigationService!.navigateTo(LearningHomeView.route);
-                },
+              FadeAnimation(
+                delay: 500,
+                child: CategoryCard(
+                  title: 'Learning',
+                  svgName: 'learning.svg',
+                  onTap: () {
+                    _navigationService!.navigateTo(LearningHomeView.route);
+                  },
+                ),
               ),
-              CategoryCard(
-                title: 'Zena Mentors',
-                svgName: 'zena-mentors.svg',
-                onTap: () {
-                  _navigationService!.navigateTo(ZenaMentorsHomeView.route);
-                },
+              FadeAnimation(
+                delay: 600,
+                child: CategoryCard(
+                  title: 'Zena Mentors',
+                  svgName: 'zena-mentors.svg',
+                  onTap: () {
+                    _navigationService!.navigateTo(ZenaMentorsHomeView.route);
+                  },
+                ),
               ),
-              CategoryCard(
-                title: 'Zena Resources',
-                svgName: 'useful-resources.svg',
-                onTap: () {
-                  _navigationService!.navigateTo(ZenaResourcesHomeView.route);
-                },
+              FadeAnimation(
+                delay: 700,
+                child: CategoryCard(
+                  title: 'Zena Resources',
+                  svgName: 'useful-resources.svg',
+                  onTap: () {
+                    _navigationService!.navigateTo(ZenaResourcesHomeView.route);
+                  },
+                ),
               ),
-              CategoryCard(
-                title: 'Fun Zone',
-                svgName: 'fun-zone.svg',
-                onTap: () {
-                  _navigationService!.navigateTo(FunZoneHomeView.route);
-                },
+              FadeAnimation(
+                delay: 800,
+                child: CategoryCard(
+                  title: 'Fun Zone',
+                  svgName: 'fun-zone.svg',
+                  onTap: () {
+                    _navigationService!.navigateTo(FunZoneHomeView.route);
+                  },
+                ),
               ),
-              CategoryCard(
-                title: 'Care Connection',
-                svgName: 'care-connection.svg',
-                onTap: () {
-                  _navigationService!.navigateTo(CareConnectionHomeView.route);
-                },
+              FadeAnimation(
+                delay: 900,
+                child: CategoryCard(
+                  title: 'Care Connection',
+                  svgName: 'care-connection.svg',
+                  onTap: () {
+                    _navigationService!
+                        .navigateTo(CareConnectionHomeView.route);
+                  },
+                ),
               ),
               const SizedBox(height: 30),
             ],
