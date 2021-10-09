@@ -25,7 +25,7 @@ class FadeAnimation extends StatelessWidget {
           const Duration(milliseconds: 500), Curves.easeOut);
 
     return PlayAnimation<MultiTweenValues<AniProps>>(
-      delay: Duration(milliseconds: delay.toInt()),
+      delay: Duration(milliseconds: (500 * delay).round()),
       duration: tween.duration,
       tween: tween,
       child: child,

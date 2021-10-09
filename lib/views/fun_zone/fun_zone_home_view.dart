@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stacked_services/stacked_services.dart';
+import 'package:zena_tamkin/animations/fade_animations.dart';
 import 'package:zena_tamkin/config/locator.dart';
 import 'package:zena_tamkin/helpers/helper_functions.dart';
 import 'package:zena_tamkin/shared_widgets/shared_widgets.dart';
@@ -23,40 +24,55 @@ class FunZoneHomeView extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            const ScreenBanner(
-              titleText: 'Fun Zone',
-              svgName: 'fun-zone.svg',
+            const FadeAnimation(
+              delay: 1,
+              child: ScreenBanner(
+                titleText: 'Fun Zone',
+                svgName: 'fun-zone.svg',
+              ),
             ),
             const SizedBox(height: 20),
             Wrap(
               children: [
-                SubCategoryCard(
-                  title: 'Recipe of the Day',
-                  svgName: 'cooking.svg',
-                  onTap: () {
-                    _navigationService!.navigateToView(const RandomReecipe());
-                  },
+                FadeAnimation(
+                  delay: 2,
+                  child: SubCategoryCard(
+                    title: 'Recipe of the Day',
+                    svgName: 'cooking.svg',
+                    onTap: () {
+                      _navigationService!.navigateToView(const RandomReecipe());
+                    },
+                  ),
                 ),
-                SubCategoryCard(
-                  title: 'Brain Feed',
-                  svgName: 'quotes.svg',
-                  onTap: () {
-                    _navigationService!.navigateToView(BrainFoodQuote());
-                  },
+                FadeAnimation(
+                  delay: 2,
+                  child: SubCategoryCard(
+                    title: 'Brain Feed',
+                    svgName: 'quotes.svg',
+                    onTap: () {
+                      _navigationService!.navigateToView(BrainFoodQuote());
+                    },
+                  ),
                 ),
-                SubCategoryCard(
-                  title: 'Affirmation',
-                  svgName: 'affirmation.svg',
-                  onTap: () {
-                    _navigationService!.navigateToView(Affirmations());
-                  },
+                FadeAnimation(
+                  delay: 3,
+                  child: SubCategoryCard(
+                    title: 'Affirmation',
+                    svgName: 'affirmation.svg',
+                    onTap: () {
+                      _navigationService!.navigateToView(Affirmations());
+                    },
+                  ),
                 ),
-                SubCategoryCard(
-                  title: 'Write to Us',
-                  svgName: 'write-to-us.svg',
-                  onTap: () {
-                    launchMailClient(email: 'ishaqjaveed1@gmail.com');
-                  },
+                FadeAnimation(
+                  delay: 3,
+                  child: SubCategoryCard(
+                    title: 'Write to Us',
+                    svgName: 'write-to-us.svg',
+                    onTap: () {
+                      launchMailClient(email: 'ishaqjaveed1@gmail.com');
+                    },
+                  ),
                 ),
               ],
             ),

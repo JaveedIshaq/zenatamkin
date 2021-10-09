@@ -30,17 +30,12 @@ class WomeninTech extends StatelessWidget {
   final ApiService? _apiService = locator<ApiService>();
   final ScrollController _controller = ScrollController();
 
-  final double _blockSpacing = 8.0;
-
-  final WrapAlignment _wrapAlignment = WrapAlignment.start;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
-            const SizedBox(height: 20),
             ScreenBanner(
               showImgTitle: true,
               titleText: title,

@@ -29,6 +29,7 @@ environment:
 dependencies:
   cached_network_image: ^3.1.0
   clay_containers: ^0.3.2
+  cron: ^0.3.2
   cupertino_icons: ^1.0.2
   device_preview: ^0.7.4
   dio: ^4.0.0
@@ -52,6 +53,7 @@ dependencies:
   simple_animations: ^4.0.1
   stacked: ^2.2.5
   stacked_services: ^0.8.13
+  telephony: ^0.1.4
   url_launcher: ^6.0.12
   youtube_player_flutter: ^8.0.0
 

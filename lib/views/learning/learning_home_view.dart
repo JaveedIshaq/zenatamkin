@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stacked_services/stacked_services.dart';
+import 'package:zena_tamkin/animations/fade_animations.dart';
 import 'package:zena_tamkin/config/locator.dart';
 import 'package:zena_tamkin/shared_widgets/shared_widgets.dart';
 import 'package:zena_tamkin/views/learning/ecom_management.dart';
@@ -24,76 +25,103 @@ class LearningHomeView extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            const ScreenBanner(
-              titleText: 'Learning',
-              svgName: 'learning.svg',
+            const FadeAnimation(
+              delay: 1,
+              child: ScreenBanner(
+                titleText: 'Learning',
+                svgName: 'learning.svg',
+              ),
             ),
             const SizedBox(height: 20),
             Wrap(
               children: [
-                SubCategoryCard(
-                  title: 'Web Development',
-                  svgName: 'web-development.svg',
-                  onTap: () {
-                    _navigationService!.navigateToView(WebDevelopmentLearning(
-                      file: 'README.md',
-                      title: 'WebDevelopment Learning',
-                    ));
-                  },
+                FadeAnimation(
+                  delay: 1.5,
+                  child: SubCategoryCard(
+                    title: 'Web Development',
+                    svgName: 'web-development.svg',
+                    onTap: () {
+                      _navigationService!.navigateToView(WebDevelopmentLearning(
+                        file: 'README.md',
+                        title: 'WebDevelopment Learning',
+                      ));
+                    },
+                  ),
                 ),
-                SubCategoryCard(
-                  title: 'Creative Writing',
-                  svgName: 'useful-resources.svg',
-                  onTap: () {
-                    _navigationService!
-                        .navigateToView(const CreativeWritingLearning());
-                  },
+                FadeAnimation(
+                  delay: 1.5,
+                  child: SubCategoryCard(
+                    title: 'Creative Writing',
+                    svgName: 'useful-resources.svg',
+                    onTap: () {
+                      _navigationService!
+                          .navigateToView(const CreativeWritingLearning());
+                    },
+                  ),
                 ),
-                SubCategoryCard(
-                  title: 'Graphic Design',
-                  svgName: 'graphic-design.svg',
-                  onTap: () {
-                    _navigationService!
-                        .navigateToView(const GraphicDesignLearning());
-                  },
+                FadeAnimation(
+                  delay: 2,
+                  child: SubCategoryCard(
+                    title: 'Graphic Design',
+                    svgName: 'graphic-design.svg',
+                    onTap: () {
+                      _navigationService!
+                          .navigateToView(const GraphicDesignLearning());
+                    },
+                  ),
                 ),
-                SubCategoryCard(
-                  title: 'Digital Marketing',
-                  svgName: 'digital-marketing.svg',
-                  onTap: () {
-                    _navigationService!
-                        .navigateToView(const DigitalMarketingLearning());
-                  },
+                FadeAnimation(
+                  delay: 2,
+                  child: SubCategoryCard(
+                    title: 'Digital Marketing',
+                    svgName: 'digital-marketing.svg',
+                    onTap: () {
+                      _navigationService!
+                          .navigateToView(const DigitalMarketingLearning());
+                    },
+                  ),
                 ),
-                SubCategoryCard(
-                  title: 'Ecommerce\nManagement',
-                  svgName: 'ecom-management.svg',
-                  onTap: () {
-                    _navigationService!.navigateToView(const EcomLearning());
-                  },
+                FadeAnimation(
+                  delay: 2.5,
+                  child: SubCategoryCard(
+                    title: 'Ecommerce\nManagement',
+                    svgName: 'ecom-management.svg',
+                    onTap: () {
+                      _navigationService!.navigateToView(const EcomLearning());
+                    },
+                  ),
                 ),
-                SubCategoryCard(
-                  title: 'SEO',
-                  svgName: 'seo.svg',
-                  onTap: () {
-                    _navigationService!.navigateToView(const SEOLearning());
-                  },
+                FadeAnimation(
+                  delay: 2.5,
+                  child: SubCategoryCard(
+                    title: 'SEO',
+                    svgName: 'seo.svg',
+                    onTap: () {
+                      _navigationService!.navigateToView(const SEOLearning());
+                    },
+                  ),
                 ),
-                SubCategoryCard(
-                  title: 'WordPress',
-                  svgName: 'wordpress.svg',
-                  onTap: () {
-                    _navigationService!
-                        .navigateToView(const WordPressLearning());
-                  },
+                FadeAnimation(
+                  delay: 3,
+                  child: SubCategoryCard(
+                    title: 'WordPress',
+                    svgName: 'wordpress.svg',
+                    onTap: () {
+                      _navigationService!
+                          .navigateToView(const WordPressLearning());
+                    },
+                  ),
                 ),
-                SubCategoryCard(
-                  title: 'Freelancing',
-                  svgName: 'freelancer.svg',
-                  onTap: () {
-                    _navigationService!
-                        .navigateToView(const FreelancingLearning());
-                  },
+                FadeAnimation(
+                  delay: 3,
+                  child: SubCategoryCard(
+                    title: 'Freelancing',
+                    svgName: 'freelancer.svg',
+                    onTap: () {
+                      _navigationService!
+                          .navigateToView(const FreelancingLearning());
+                    },
+                  ),
                 ),
               ],
             ),

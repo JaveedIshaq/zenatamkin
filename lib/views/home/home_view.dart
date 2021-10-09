@@ -31,12 +31,12 @@ class HomeView extends StatelessWidget {
           child: Column(
             children: [
               const FadeAnimation(
-                delay: 400,
+                delay: 1,
                 child: HomeScreenBanner(),
               ),
               const SizedBox(height: 10),
               FadeAnimation(
-                delay: 500,
+                delay: 2,
                 child: CategoryCard(
                   title: 'Learning',
                   svgName: 'learning.svg',
@@ -46,7 +46,7 @@ class HomeView extends StatelessWidget {
                 ),
               ),
               FadeAnimation(
-                delay: 600,
+                delay: 3,
                 child: CategoryCard(
                   title: 'Zena Mentors',
                   svgName: 'zena-mentors.svg',
@@ -56,7 +56,7 @@ class HomeView extends StatelessWidget {
                 ),
               ),
               FadeAnimation(
-                delay: 700,
+                delay: 4,
                 child: CategoryCard(
                   title: 'Zena Resources',
                   svgName: 'useful-resources.svg',
@@ -66,7 +66,7 @@ class HomeView extends StatelessWidget {
                 ),
               ),
               FadeAnimation(
-                delay: 800,
+                delay: 5,
                 child: CategoryCard(
                   title: 'Fun Zone',
                   svgName: 'fun-zone.svg',
@@ -76,7 +76,7 @@ class HomeView extends StatelessWidget {
                 ),
               ),
               FadeAnimation(
-                delay: 900,
+                delay: 6,
                 child: CategoryCard(
                   title: 'Care Connection',
                   svgName: 'care-connection.svg',
