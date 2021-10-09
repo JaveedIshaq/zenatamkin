@@ -29,7 +29,7 @@ class CareConnectionHomeView extends StatelessWidget {
                 padding: EdgeInsets.all(8.0),
                 child: Text(
                   '''
-            Help women remaining in Care by sending current location and on shake the device also''',
+            Help women to be in Care of loved ones by sending current location on button and also the shaking the device''',
                   textAlign: TextAlign.center,
                 ),
               ),

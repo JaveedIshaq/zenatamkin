@@ -20,7 +20,7 @@ class Affirmations extends StatelessWidget {
       onModelReady: (AppViewModel model) => model.requestAffirmation(),
       disposeViewModel: false,
       builder: (context, model, child) => Scaffold(
-          backgroundColor: primaryColor,
+          backgroundColor: primaryColor.withBlue(900),
           body: Stack(
             children: [
               Positioned(
@@ -42,7 +42,7 @@ class Affirmations extends StatelessWidget {
                       ? const LoadingIndicator(color: Colors.white38)
                       : Container(
                           height: MediaQuery.of(context).size.height * 0.8,
-                          color: primaryColor,
+                          color: primaryColor.withBlue(900),
                           child: Padding(
                             padding: const EdgeInsets.symmetric(
                                 horizontal: 18.0, vertical: 50),
