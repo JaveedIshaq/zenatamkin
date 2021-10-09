@@ -31,7 +31,7 @@ class FunZoneHomeView extends StatelessWidget {
             Wrap(
               children: [
                 SubCategoryCard(
-                  title: 'Reipe of the Day',
+                  title: 'Recipe of the Day',
                   svgName: 'cooking.svg',
                   onTap: () {
                     _navigationService!.navigateToView(const RandomReecipe());

@@ -8,9 +8,9 @@ import 'package:zena_tamkin/services/api_service.dart';
 import 'package:zena_tamkin/shared_widgets/shared_widgets.dart';
 
 /// Web Development Learning
-class WebDevelopmentLearning extends StatelessWidget {
+class WomenInTech extends StatelessWidget {
   ///
-  WebDevelopmentLearning({Key? key, required this.file, required this.title})
+  WomenInTech({Key? key, required this.file, required this.title})
       : super(key: key);
 
   /// Markdown File
@@ -39,7 +39,7 @@ class WebDevelopmentLearning extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             FutureBuilder(
-              future: _apiService!.getTechtonichaCurricullamData(file: file),
+              future: _apiService!.getWomenInTechData(file: file),
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
                   return Markdown(

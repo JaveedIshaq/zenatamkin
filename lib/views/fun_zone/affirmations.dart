@@ -24,7 +24,7 @@ class Affirmations extends StatelessWidget {
           body: Stack(
             children: [
               Positioned(
-                top: 20,
+                top: 30,
                 child: IconButton(
                   icon: const Icon(
                     Icons.arrow_back_ios,

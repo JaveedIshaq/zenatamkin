@@ -1,12 +1,5 @@
-import 'dart:io';
-import 'dart:typed_data';
-import 'dart:ui' as ui;
-
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:share/share.dart';
 import 'package:stacked/stacked.dart';
 import 'package:zena_tamkin/app_viewmodel/app_viewmodel.dart';
 import 'package:zena_tamkin/config/colors.dart';
@@ -32,7 +25,7 @@ class BrainFoodQuote extends StatelessWidget {
           body: Stack(
             children: [
               Positioned(
-                top: 20,
+                top: 30,
                 child: IconButton(
                   icon: const Icon(
                     Icons.arrow_back_ios,

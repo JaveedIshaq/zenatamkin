@@ -3,6 +3,10 @@
 const String techtonicaBaseUrl =
     'https://raw.githubusercontent.com/Techtonica/curriculum/main/';
 
+///
+const String shikaReadMeUrl =
+    'https://raw.githubusercontent.com/shikha-16/Women-in-Technology/master/README.md';
+
 /// youtube Playlist base Url
 const String ytPlbaseUrl =
     'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=';
@@ -31,12 +35,8 @@ const String freelancingPlId = 'PL9eMX9C6-socpVMOYNjYlJ5HoOcLoYdTB';
 /// Graphic Design Playlist ID
 const String wordPressPlId = 'PL9eMX9C6-sodXS2fh2HFnjPRC6nzGx6FT';
 
-
-
-
 /// Youtube get Playlist Videos
 //https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PL9eMX9C6-soesfijBZpMjdC9CG5Ik70RK&key=AIzaSyDi_LO5NPiSRaaJtVfwsbzJ0J4wH0dhh24
-
 
 // Digital Marketing
 //https://www.youtube.com/playlist?list=PL9eMX9C6-soesfijBZpMjdC9CG5Ik70RK

@@ -19,7 +19,7 @@ class Router {
         return MaterialPageRoute<dynamic>(builder: (_) => LearningHomeView());
       case '/ZenaResourcesHomeView':
         return MaterialPageRoute<dynamic>(
-            builder: (_) => const ZenaResourcesHomeView());
+            builder: (_) => ZenaResourcesHomeView());
       case '/CareConnectionHomeView':
         return MaterialPageRoute<dynamic>(
             builder: (_) => const CareConnectionHomeView());

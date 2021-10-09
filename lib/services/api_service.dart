@@ -16,8 +16,17 @@ class ApiService {
   final ApiBaseHelper _apiHelper = ApiBaseHelper();
 
   /// read
-  Future<String> getTextData({required String file}) async {
+  Future<String> getTechtonichaCurricullamData({required String file}) async {
     var url = Uri.parse(techtonicaBaseUrl + file);
+
+    print(url);
+    var response = await http.get(url);
+    return response.body;
+  }
+
+  /// read
+  Future<String> getWomenInTechData({required String file}) async {
+    var url = Uri.parse(shikaReadMeUrl);
     var response = await http.get(url);
     return response.body;
   }
