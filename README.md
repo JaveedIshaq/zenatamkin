@@ -1,6 +1,6 @@
 # Zena Tamkin
 
-The word Zena mean Woman is Bosnian Language and Tamkin mean Empowerment in Arabic. The Zena Tamkin App is developed with a purpose in mind to help women learning technical skills. The main Feature of the app is the connection of Women to mentors Women
+The word Zena mean Woman in Bosnian Language and Tamkin mean Empowerment in Arabic. The Zena Tamkin App is developed with a purpose in mind to help women learning technical skills. The main Feature of the app is the connection of Women to mentors Women
 
 
 ## Digital HackFair 2.0 | Bringing Technical Solutions to Empower Women
