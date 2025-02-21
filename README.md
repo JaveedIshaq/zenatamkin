@@ -51,6 +51,8 @@ dart
 flutter
 visual-studio-code
 
+#flutter web
+
 ## Try it out
  GitHub Repo
  [APK Download Link](https://github.com/JaveedIshaq/zenatamkin/blob/master/zena-tamkin.apk)
