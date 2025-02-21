@@ -1,0 +1,836 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "Ej9tOrk1oKCWvfmVDBOlH2Pn6J8",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ghBr7iNaxp9tRL3KWeffAJ6ywVU",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:00:00Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "Women in Tech | Insider advice from female software engineers",
+                "description": "Seven women in tech working as developers or engineers give their advice to other women who would like to join the tech space.\n\nHuge thanks to our amazing graduates for sharing their thoughts:\n\nCindy Xie - Software Developer at 38 Degrees\nOlivia Campbell - Operations Engineer at DXW Digital \nSophie Dermaux - Software Engineer at Onfido\nNatalie Christmann-Cooper - Full Stack Developer at Skills Matter \nHedi Van Meurs - Recent Le Wagon Graduate \nAsia Stuerznickel - Student at MIT \nSam Ricotta - Freelance Developer\n\nLet's build a better environment for women in tech together!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fOJ-KKtzDXI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fOJ-KKtzDXI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fOJ-KKtzDXI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fOJ-KKtzDXI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/fOJ-KKtzDXI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "fOJ-KKtzDXI"
+                },
+                "videoOwnerChannelTitle": "Le Wagon",
+                "videoOwnerChannelId": "UChCDYcBCrb8tuPAO6e0P-Hw"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "1dyfXhpE4a76jIdZKQmFdetfieI",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:00:22Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "Inspiring the next generation of female engineers | Debbie Sterling | TEDxPSU",
+                "description": "Close your eyes and picture and engineer. You probably weren't envisioning Debbie Sterling.  Debbie Sterling is an engineer and founder of GoldieBlox, a toy company out to inspire the next generation of female engineers. She has made it her mission in life to tackle the gender gap in science, technology, engineering and math.\n\nGoldieBlox is a book series+construction set that engages kids to build through the story of Goldie, the girl inventor who solves problems by building simple machines. Debbie writes and illustrates Goldie's stories, taking inspiration from her grandmother, one of the first female cartoonists and creator of \"\"Mr. Magoo.\"\" Her company, launched in 2012, raised over $285,000 in 30 days through Kickstarter, and has been featured in numerous publications such as The Atlantic and Forbes.\n\nPrior to founding GoldieBlox, Debbie served as the Marketing Director of Lori Bonn, a national jewelry company. For the past 7 years, she has also served as a brand strategy consultant for a wide variety of organizations including Microsoft, T-Mobile, Organic Valley and the New York Knicks.\n\nDebbie's inspiration to create a mission-driven company came in 2008, when she spent 6 months volunteering at a grassroots nonprofit in rural India. She created a viral fundraising campaign called \"\"I Want a Goat,\"\" raising over $30,000 for economic and educational development in the region. This experience helped pave the way to finding her true passion: inspiring the next generation of female engineers.\n\nDebbie completed her degree in engineering at Stanford (Product Design, '05) and currently lives with her husband in San Francisco.\n\nIn the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.* (*Subject to certain rules and regulations)",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FEeTLopLkEo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FEeTLopLkEo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FEeTLopLkEo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/FEeTLopLkEo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/FEeTLopLkEo/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "FEeTLopLkEo"
+                },
+                "videoOwnerChannelTitle": "TEDx Talks",
+                "videoOwnerChannelId": "UCsT0YIqwnpJCM-mx7-gSA4Q"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "C-6-lCauOF-ESOBxQDHU5oTHmbA",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:00:44Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "The vanishing Indian tech woman | Rashmi Mohan | TEDxChennai",
+                "description": "Now you see her, now you don't.  The Indian tech woman is a force to be reckoned with. And yet, while our colleges are teeming with them, slowly, but surely, we seem to see these figures vanishing from the workforce.  In this talk, Rashmi Mohan talks about the appalling trend of diminishing numbers of senior technical women in the Indian diaspora and how we can recognise and change some of our unconscious behaviours to reverse this trend.\n\nRashmi Mohan is a technologist, an engineer and a budding entrepreneur. Until recently, she was a Sr. Engineering Manager at Yahoo Labs in Bangalore. She has spent 15+ years in various technical and management roles in the industry. She has a background in Front end engineering and led a group of scientists and engineers within Yahoo Labs.\r\nRashmi is particularly interested in the cause of promoting and encouraging women in technology to aspire and reach greater heights in their careers. She is the ACM India council secretary and is actively involved in the CS community. Rashmi has been associated with the Grace Hopper Conference in Bangalore for five years as a mentor, advisory committee member and founding member of the all women Hackathon.\n\nThis talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at https://www.ted.com/tedx",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Hb-xlJgvCm4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Hb-xlJgvCm4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Hb-xlJgvCm4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Hb-xlJgvCm4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Hb-xlJgvCm4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Hb-xlJgvCm4"
+                },
+                "videoOwnerChannelTitle": "TEDx Talks",
+                "videoOwnerChannelId": "UCsT0YIqwnpJCM-mx7-gSA4Q"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ZMZhE_9INZ0N21tHc05KKS1RCME",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:00:52Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "The key to more women in technology | Marianna Budnikova | TEDxBoise",
+                "description": "Have you ever wondered why programming is seen as a man’s game? Where are all the women software developers hiding? Marianna Budnikova is a software engineer at Microsoft. Back when she was in college, she set upon a quest to find out why there are so few women in tech. In this talk, Marianna shares her discovery about what takes young girls and women away from technology, and gives some suggestions for tackling the problem.\r\n\n\nMarianna Budnikova is a professional hacker--aka software developer--at Microsoft. With bachelor’s and master’s degrees in computer science, Marianna fell in love with programming as she started building mobile apps, mocking with video game making, rendering 3D graphics and using artificial intelligence to solve the world’s largest problems. Originally from Russia (“the greatest hacker community,”) Marianna was amazed at how few U.S. women pursue technology as a career. So she began a quest to solve this problem by founding the Association for Computing Machinery Women’s Club at Boise State; she also created a weekly contributor to a blog called CodeBrave. She also co-founded and is currently a Chapter Leader for Girl Develop It Boise, a local chapter of a national nonprofit that provides affordable technology education to women.\n\nThis talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at http://ted.com/tedx",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XebNxUE3ugA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XebNxUE3ugA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XebNxUE3ugA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/XebNxUE3ugA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/XebNxUE3ugA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "XebNxUE3ugA"
+                },
+                "videoOwnerChannelTitle": "TEDx Talks",
+                "videoOwnerChannelId": "UCsT0YIqwnpJCM-mx7-gSA4Q"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Z1WDPU2-q2CxhUybq3elX9W5dYI",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:01:06Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "Women in Tech: Advice from Five Female Leaders",
+                "description": "To celebrate International Women’s Day, BrainStation asked five female tech leaders – from companies including Linkedin and Decentral – one question: “What advice would you give to women in tech as they pursue leadership roles?”\n\nInterested in hearing from more leaders in technology? Join us March 13, 2019 for our panel discussion – Leadership in Tech | Building a Culture for Women to Succeed http://bit.ly/2SRgEBd",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8VZTtRX4HIk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8VZTtRX4HIk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8VZTtRX4HIk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8VZTtRX4HIk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/8VZTtRX4HIk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8VZTtRX4HIk"
+                },
+                "videoOwnerChannelTitle": "BrainStation",
+                "videoOwnerChannelId": "UCh2gY8QgYy9O1Bo4FsDAu1w"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ADjceA9_BlWpxNKh2ljUYT31gW8",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:01:13Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "Women in Technology Panel Discussion",
+                "description": "White House Senior Advisor Valerie Jarrett leads a panel discussion on women in technology from Facebook's headquarters in Palo Alto, CA. April 20, 2011.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T44XdGH5s-8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T44XdGH5s-8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T44XdGH5s-8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "T44XdGH5s-8"
+                },
+                "videoOwnerChannelTitle": "The Obama White House",
+                "videoOwnerChannelId": "UCDGknzyQfNiThyt4vg4MlTQ"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "I4o2wDTIDUjKrkum8gssOPhYEQU",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:01:19Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "How Did Tech Become So Male-Dominated?",
+                "description": "Since computing began in the 1940s, women have led major developments in programming and software development. In 1984, 37 percent of computer-science majors were women. What happened? The tech industry's image shifted rapidly in the 1980s and ’90s, and society began to associate programming with men. Today, only one in four computing jobs is held by a woman. This short, animated history of women in tech explains how women—not just men—developed computer science. Programming isn't a male or female job, and remembering that is necessary to fix the tech industry’s gender gap. Read more in The Atlantic’s April 2017 cover story, “Why Is Silicon Valley So Awful to Women?”\n\nRead more: https://www.theatlantic.com/magazine/archive/2017/04/why-is-silicon-valley-so-awful-to-women/517788/\n\nSubscribe to The Atlantic! New videos every week: \nhttps://www.youtube.com/subscription_center?add_user=theatlantic\n\nSubscribe to The Atlantic on YouTube: http://bit.ly/subAtlanticYT",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OZ7zX6LalLI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OZ7zX6LalLI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OZ7zX6LalLI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/OZ7zX6LalLI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/OZ7zX6LalLI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "OZ7zX6LalLI"
+                },
+                "videoOwnerChannelTitle": "The Atlantic",
+                "videoOwnerChannelId": "UCK0z0_5uL7mb9IjntOKi5XQ"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "r24HDMGtOETw1rvOeb8gDbBm8qw",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:01:42Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "Women in tech statistics: Hard truths of an uphill battle",
+                "description": "Despite national conversations about gender diversity in tech, women are still underrepresented, underpaid and often discriminated against in the tech industry. Here's a look at the numbers. \n\nRead more about women in technology at CIO.com:\nhttps://www.cio.com/article/3516012/women-in-tech-statistics-the-hard-truths-of-an-uphill-battle.html\n\nFollow TECH(talk) for the latest tech news and discussion!\r\n------------------------------­----\r\nSUBSCRIBE: http://www.youtube.com/subscription_center?add_user=idgtechtalk\r\n\r\nFACEBOOK: https://www.facebook.com/idgtechtalk/\r\n\r\nTWITTER: https://twitter.com/IDGTechTalk\r\n\r\nIDG ENTERPRISE WEBSITES \r\n\r\nComputerworld: https://www.computerworld.com/video/series/8529/tech-talk\r\n\r\nCIO: https://www.cio.com/video/series/8534/cio-leadership-live\r\n\r\nCSO: https://www.csoonline.com/video/series/8607/windows-security-tips\r\n\r\nInfoWorld: https://www.infoworld.com/video/series/8563/do-more-with-r\r\n\r\nNetwork World: https://www.networkworld.com/video/series/8559/2-minute-linux-tips",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QGo9v4TE8eo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QGo9v4TE8eo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QGo9v4TE8eo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/QGo9v4TE8eo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/QGo9v4TE8eo/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "QGo9v4TE8eo"
+                },
+                "videoOwnerChannelTitle": "IDG TECHtalk",
+                "videoOwnerChannelId": "UCyhpw4-Etc79Sq77Swre5KA"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "NoqW4Qzh3YphuMx9PaC_07p_0XQ",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:01:54Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "Melinda Gates: How To Get More Women In Tech",
+                "description": "\"Women are so underrepresented in the technology sector in the United States, and yet tech is pervasive. It is changing our lives,\" says Gates, who has started an investment and incubation company to create more opportunities for women in tech.\n\n» Subscribe to CNBC Make It.: http://cnb.cx/2kxl2rf\n\nCorporate America may be facing a reckoning in the wake of allegations against powerful men, but progress so far has been \"spotty\" according to Melinda Gates.\n\nThe co-chair of the Bill and Melinda Gates Foundation shared her reflections in an interview with Squawk Box anchor Becky Quick on Tuesday. \"I think there will continue to be a pushback where people will try to roll back [the movement's] progress,\" says Gates.\n\nGates emphasized that the #MeToo movement has gained traction in part thanks to millennials, and that with a \"cacophony of voices\" speaking out about equality, there's reason to be optimistic about the future. \"This younger generation is about bringing all women forward,\" she says. \"There's a lot of guilt for women over 60. They say, 'I made it, I assimilated, but I'm one of one.'\"\n\n\"I think everybody sees, we need to get better across society government, corporations, founding businesses,\" she says.\n\nOne way to help women advance, according to Gates? Broaden access to paid family medical leave. Currently, just 15 percent of U.S. workers currently have access paid family leave, according to the National Partnership for Women & Families. And for married women to benefit, it's just as important for men to have access to family leave.\n\n\"When a man takes a leave, he's more involved in raising the children it's better for him and it's better for the kids,\" says Gates.\n\nTraditional family roles, she says, are no longer relevant in today's society. Married women in the U.S. perform five years of unpaid labor that their husbands do not — everything from making school lunches to driving kids to school, she says.\n\n\"We need to look at that and recognize women are working today. They are in the workforce, but we have to redistribute the workload at home, and paid family medical leave for men and women helps with that.\"\n\nAbout CNBC Make It.: CNBC Make It. is a new section of CNBC dedicated to making you smarter about managing your business, career, and money.\n \nConnect with CNBC Make It. Online\nGet the latest updates: http://www.cnbc.com/make-it\nFind CNBC Make It. on Facebook: http://cnb.cx/LikeCNBCMakeIt\nFind CNBC Make It. on Twitter: http://cnb.cx/FollowCNBCMakeIt\nFind CNBC Make It. on Instagram: http://bit.ly/InstagramCNBCMakeIt\nFind CNBC Make It. on LinkedIn: https://cnb.cx/2OIdwqJ \n\n#CNBC\n#CNBCMakeIt\n\nMelinda Gates: How To Get More Women In Tech And Why College Is Too Late To Start | CNBC Make It.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/v6HHq0n8YSc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/v6HHq0n8YSc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/v6HHq0n8YSc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/v6HHq0n8YSc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/v6HHq0n8YSc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "v6HHq0n8YSc"
+                },
+                "videoOwnerChannelTitle": "CNBC Make It",
+                "videoOwnerChannelId": "UCH5_L3ytGbBziX0CLuYdQ1Q"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "rcBPZXsu3dwirjsX_AvFpFV8Azw",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:02:13Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "The Rise Of Women In Tech",
+                "description": "The journeys successful #WomenInTech make to rise to the top in the industry is never an easy one. But they do make #inspiring stories that empower other women in the same field or in other fields to realize their potential and dreams. \n\n#Huawei is honored to bring you these three #WomenEmpowerment stories in our #WhoAreWe series. So what can we learn from Monalisa Marpaung, Zoi Rizou and Fatou Thioune from Huawei Indonesia, Greece and Senegal respectively? Watch the video to find out.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/D0-TDUF_XRA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/D0-TDUF_XRA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/D0-TDUF_XRA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/D0-TDUF_XRA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/D0-TDUF_XRA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "D0-TDUF_XRA"
+                },
+                "videoOwnerChannelTitle": "Huawei",
+                "videoOwnerChannelId": "UCtjV1_XU6gvPYyreaFScxBQ"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "6fD4Cq_Fcf6qKMuo6kPJVbYJob0",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:02:20Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "Women in Tech",
+                "description": "A behind the streams look at our Women in Tech event held in our Los Gatos HQ",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9ubJKwiFohM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9ubJKwiFohM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9ubJKwiFohM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/9ubJKwiFohM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/9ubJKwiFohM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "9ubJKwiFohM"
+                },
+                "videoOwnerChannelTitle": "WeAreNetflix",
+                "videoOwnerChannelId": "UCxhKUXdgBKaHImekTEaLoJA"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "KymyZHu3bYpC3AhddymyNDiFF9U",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2020-08-23T06:02:45Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "Grit, Mentors & Role Models: Powering Women in Tech",
+                "description": "“The big problem we have is not so much a pipeline problem - but a ‘leak in the pipeline’ problem.”  Neha Narkhede, the Co-Founder & CPO of Confluent, talks with Sequoia India’s Anjana Sasidharan about what it takes to succeed as a woman in tech, the importance of mentors & role models - and why it's critical for to develop the grit \"to power through a no to a yes\".",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-lFUNmoWtNw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-lFUNmoWtNw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-lFUNmoWtNw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/-lFUNmoWtNw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/-lFUNmoWtNw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "-lFUNmoWtNw"
+                },
+                "videoOwnerChannelTitle": "Sequoia India",
+                "videoOwnerChannelId": "UCGWNaThUaqoSGSEJxTWpmfQ"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4fEMKXtSWsBC0eKnkZMXnf9FlaM",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2020-10-22T07:01:44Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "“Dear Young Woman”: a poem of empowerment",
+                "description": "“I see all the armour you wear. I see all the jewels and gems of wisdom you share. It’s okay to shine.” Britta B performs “Dear Young Woman” in our series Poetic License.\n\n»Subscribe to CBC Arts to watch more videos: http://bit.ly/CBCArtsSubscribe\n\n“A word that comes to mind for this piece is ’empowerment,’” Kingston-born and Toronto based spoken word poet, teaching artist, mentor and emcee Britta Badour says of her poem Dear Young Woman. “As a poet I really want to serve as an encouraging voice through my work and I want this poem to be a reminder that whatever you’re going through as a woman you have the choice to make for yourself on how gentle and kind you are with yourself.”\n\n“I may be putting this out there as a message for people other than me, but it’s also a reminder to myself to treat myself kindly and to be good to myself.”\n\nFind us at: http://cbc.ca/arts\nCBC Arts on Facebook: http://facebook.com/cbcarts\nCBC Arts on Twitter: http://twitter.com/cbcarts\nCBC Arts on Instagram: http://instagram.com/cbcarts\n\nAbout: Welcome to CBC Arts, your home for the most surprising, relevant and provocative stories featuring artists from diverse communities across Canada. Our job is to fill your feed with the disruptors and innovators changing how we see the country through movement, images and sound — and to inspire you to join in too.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/adUToRtRkaY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/adUToRtRkaY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/adUToRtRkaY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/adUToRtRkaY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/adUToRtRkaY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "adUToRtRkaY"
+                },
+                "videoOwnerChannelTitle": "CBC Arts",
+                "videoOwnerChannelId": "UCbExnsDIg9qnktUKtKbZ7dQ"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "R8o4t4AWTS_1aROnxJf9rPxr8k8",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2020-10-22T07:01:55Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "The Secret of Becoming Mentally Strong | Amy Morin | TEDxOcala",
+                "description": "Everyone has the ability to build mental strength, but most people don't know how. \r\nWe spend a lot of time talking about physical strength and physical health, but much less time on mental strength and mental health. \r\nWe can choose to perform exercises that will help us learn to regulate our thoughts, manage our emotions, and behave productively despite our circumstances - the 3 basic factors of mental strength. No matter what your goals are, building mental strength is the key to reaching your greatest potential.\n\nAmy Morin is a licensed clinical social worker and psychotherapist. Since 2002, she has been counseling children, teens, and adults. She also works as an adjunct psychology instructor.\r\n \r\nAmy’s expertise in mental strength has attracted international attention. Her bestselling book, 13 Things Mentally Strong People Don’t Do, is being translated into more than 20 languages.\r\n \r\nAmy’s advice has been featured by a number of media outlets, including: Time, Fast Company, Good Housekeeping, Business Insider, Elle, Cosmopolitan, Success, Glamour, Oprah.com, TheBlaze TV, and Fox News. She has also been a guest on dozens of radio shows.\r\n \r\nShe is a regular contributor to Forbes, Inc., and Psychology Today. She serves as About.com’s Parenting Teens Expert and Discipline Expert.\r\n \r\nAs a frequent keynote speaker, Amy loves to share the latest research on resilience and the best strategies for overcoming adversity and building mental muscle.\r\n\n\nThis talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at http://ted.com/tedx",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TFbv757kup4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TFbv757kup4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TFbv757kup4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "TFbv757kup4"
+                },
+                "videoOwnerChannelTitle": "TEDx Talks",
+                "videoOwnerChannelId": "UCsT0YIqwnpJCM-mx7-gSA4Q"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "lUfL9_CXGKnNJK7-NmXeHKx2Wxk",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2020-10-22T07:02:05Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "The art of being yourself | Caroline McHugh | TEDxMiltonKeynesWomen",
+                "description": "Never miss a talk! SUBSCRIBE to the TEDx channel: http://bit.ly/1FAg8hB\n\nIn the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.* (*Subject to certain rules and regulations)",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/veEQQ-N9xWU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/veEQQ-N9xWU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/veEQQ-N9xWU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/veEQQ-N9xWU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/veEQQ-N9xWU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "veEQQ-N9xWU"
+                },
+                "videoOwnerChannelTitle": "TEDx Talks",
+                "videoOwnerChannelId": "UCsT0YIqwnpJCM-mx7-gSA4Q"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "HVwHi4bLiyA5NZSyLghBuBI6NU0",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2021-02-17T07:08:00Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "Are you biased? I am | Kristen Pressner | TEDxBasel",
+                "description": "What do you do when you realize you have a bias, even against yourself? Kristen Pressner is the Global Head of Human Resources at a multinational firm, and a tireless advocate for, and promoter of, women in the workplace. In this enlightening talk, Kristen explores how we can recognize our own hidden, irrational biases — and keep them from limiting us.\r\n\r\nThe intro animation was produced as a collaboration between TEDxBasel and the Hochschule Luzern. The video was created by Fabian Schaeublin. \r\n\r\nFind out more about this event and the other ideas that were shared at http://www.tedxbasel.com/ \n\nKristen Pressner is the Global Head of Human Resources at a multinational firm. She graduated from Purdue University with top honors and received her MBA from The University of Dallas. Kristen is a passionate advocate and tireless campaigner for women in the workplace. She is married with 4 children. \r\nFavorite quote: “If you aren’t in over your head, how do you know how tall you are?” T.S. Elliot\n\nThis talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at http://ted.com/tedx",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Bq_xYSOZrgU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Bq_xYSOZrgU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Bq_xYSOZrgU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Bq_xYSOZrgU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Bq_xYSOZrgU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Bq_xYSOZrgU"
+                },
+                "videoOwnerChannelTitle": "TEDx Talks",
+                "videoOwnerChannelId": "UCsT0YIqwnpJCM-mx7-gSA4Q"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "fApnsma1glmPHRwzKNpbAcFv66Q",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2021-02-17T07:08:05Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "We should all be feminists | Chimamanda Ngozi Adichie",
+                "description": "We teach girls that they can have ambition, but not too much ... to be successful, but not too successful, or they'll threaten men, says author Chimamanda Ngozi Adichie. In this classic talk that started a worldwide conversation about feminism, Adichie asks that we begin to dream about and plan for a different, fairer world -- of happier men and women who are truer to themselves.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more.\n\nFollow TED on Twitter: http://www.twitter.com/TEDTalks\nLike TED on Facebook: https://www.facebook.com/TED\n\nSubscribe to our channel: https://www.youtube.com/TED",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S6ufvYWTqQ0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S6ufvYWTqQ0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S6ufvYWTqQ0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/S6ufvYWTqQ0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/S6ufvYWTqQ0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "S6ufvYWTqQ0"
+                },
+                "videoOwnerChannelTitle": "TED",
+                "videoOwnerChannelId": "UCAuUUnT6oDeKwE6v1NGQxug"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Vrm6IUDbZNiuAKK5HyPOvLIvXqk",
+            "id": "UExCU2w5alVDVjM3Q0FWamU3NTczZWZ3dXZhRFBUTkFDOC4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2021-02-17T07:08:35Z",
+                "channelId": "UCy4FtshZtk1Y1ylzuyJ1VzA",
+                "title": "Women in Technology: through the eyes of my daughter | Mark MacNaughton | TEDxColumbusWomen",
+                "description": "Mark MacNaughton has been an Information Technology leader for many years.  He viewed the lack of women leaders in science and technology related fields as a simple math problem.  A kitchen table conversation with his daughter made him realize that while it is math problem,  it isn’t the one he was trying to solve. \n\nThis talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at http://ted.com/tedx",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HYtYz19-rOU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HYtYz19-rOU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HYtYz19-rOU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/HYtYz19-rOU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/HYtYz19-rOU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Shikha Bhat",
+                "playlistId": "PLBSl9jUCV37CAVje7573efwuvaDPTNAC8",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "HYtYz19-rOU"
+                },
+                "videoOwnerChannelTitle": "TEDx Talks",
+                "videoOwnerChannelId": "UCsT0YIqwnpJCM-mx7-gSA4Q"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 18,
+        "resultsPerPage": 50
+    }
+}
